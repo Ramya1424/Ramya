@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>user Profile</title>
+    
+    </head>
+    <body>
+        <div class="header">
+            <h1>user Details Form</h1>
+            <div class="profile-form">
+                <form id="user-form" action="/submit-user" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name"><br>
+                    <label type="email">Email:</label>
+                    <input type="email"name="email"id="email"><br>
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age"><br>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

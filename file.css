@@ -1,0 +1,210 @@
+body 
+{
+    background: url( https://png.pngtree.com/background/20210712/original/pngtree-modern-double-color-futuristic-neon-background-picture-image_1181573.jpg );
+    background-repeat:no-repeat;
+    background-size:100%
+}
+.loginbox
+{
+    width: 400px;
+    padding:40px;
+    background: transparent;
+    border:2px solid rgba(0,0,0,.5);
+    border-radius:20px;
+    backdrop-filter:blur(50px);
+    overflow:hidden;
+    margin-left:400px;
+    margin-top:200px;
+}
+.loginbox h2
+{
+    text-transform:uppercase;
+    text-align:center;
+    font-size:30px;
+    margin-top:10px;
+    color:white;
+}
+.loginbox input
+{
+    width:80%;
+    display:block;
+    padding:10px;
+    margin-left:30px;
+    margin-bottom:20px;
+    outline:none;
+    border:none;
+    border-radius:5px;
+    background:rgb(240,240,240);
+}
+.loginbtn
+{
+    color:rgb(255,255,255);
+    width:85%;
+    padding:8px;
+    margin-left:30px;
+    border:none;
+    border-radius:8px;
+    font-size:15px;
+    text-transform:uppercase;
+    text-align:center;
+    background:rgb(38,194,250);
+}
+.loginbtn:hover
+{
+background:rgb(33,158,220);
+}
+.registerlink
+{
+    margin-left:80px;
+    margin-top:10px;
+}
+.registerlink span
+{
+    color:white;
+    font-size:17px;
+}
+.registerlink a
+{
+    text-decoration:none;
+    color:rgb917,208,238);
+}
+.registerbox
+{
+    width:400px;
+    padding:40px;
+    background:transparent;
+    border:2px solid rgba(0,0,0,.5);
+    border-radius:20px;
+    backdrop-filter:blur(50px);
+    overflow:hidden;
+    margin-left:400px;
+    margin-top:100px;
+}
+.registerbox h2
+{
+    text-transform:uppercase;
+    text-align:center;
+    font-size:30px;
+    margin-top:10px;
+    color:white;
+}
+.registerbox input
+{
+    width:80%;
+    display:block;
+    padding:5px;
+    margin-left:30px;
+    margin-bottom: 20px;
+    outline:none;
+    border:none;
+    border-radius:5px;
+    background:rgb(240,240,240);
+}
+.registerbtn
+{
+    color:rgb(255,255,255);
+    width:85%;
+    padding:8px;
+    margin-left:30px;
+    border:none;
+    border-radius:8px;
+    font-size:15px;
+    text-transform:uppercase;
+    text-align:center;
+    background:rgb(56, 250, 38);
+}
+.registertn:hover
+{
+    background:rgb(33,158,220);
+}
+.loginlink
+{
+    margin-left:110px;
+    margin-top:10px;
+}
+.loginlink span{
+    color:white;
+    font-size:17px;
+}
+.loginlink a 
+{
+    text-decoration:none;
+    color:rgb(17,208,238);
+
+}
+.home
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+nav
+{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul
+{
+    margin-right: 10px;
+    margin-top: 400px;
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+
+.text1  
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    margin-bottom: 200px;
+}
+
+.text1 h2
+{
+    margin-left: 50px;
+    margin-bottom: 200px;
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.text1 h3
+{
+    margin-top: 100px;
+    margin-left: -235px;
+    margin-bottom: 200px;
+    padding: 8px 8px;
+    display: center;
+    color: whitesmoke;
+    text-align: center;
+}
